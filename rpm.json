@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "whosthere",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "0.4.0"
+  }
+}
