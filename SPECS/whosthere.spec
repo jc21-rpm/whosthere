@@ -4,7 +4,7 @@
 %global build_date %(date +%%Y%%m%%d)
 
 Name:           whosthere
-Version:        0.5.0
+Version:        0.5.1
 Release:        1%{?dist}
 Summary:        Knock Knock.. who's there?
 Group:          Applications/System
@@ -32,6 +32,9 @@ install -Dm0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Mon Feb 2 2026 Jamie Curnow <jc@jc21.com> - 0.5.1-1
+- https://github.com/ramonvermeulen/whosthere/releases/tag/v0.5.1
+
 * Thu Jan 29 2026 Jamie Curnow <jc@jc21.com> - 0.5.0-1
 - https://github.com/ramonvermeulen/whosthere/releases/tag/v0.5.0
 
